@@ -67,3 +67,7 @@ streamlit run app.py
 | **Home Dashboard** | **Prediction Interface** | **Model Analytics** |
 |:---:|:---:|:---:|
 | <img src="https://via.placeholder.com/400x250/1E3A8A/FFFFFF?text=Home+Dashboard" width="400"> | <img src="https://via.placeholder.com/400x250/3B82F6/FFFFFF?text=Prediction+Interface" width="400"> | <img src="https://via.placeholder.com/400x250/10B981/FFFFFF?text=Model+Analytics" width="400"> |
+
+
+project Link
+https://malariaprediction-yhr7p7wrw7xpkiwd5fc4yy.streamlit.app/
