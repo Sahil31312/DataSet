@@ -1,4 +1,5 @@
-# malaria_app.py
+# in this cide i used lots markdown langauge code to style the pages and provided beautiful user interface
+
 from io import StringIO
 import inspect
 
@@ -382,7 +383,7 @@ elif choice == "🔍 Predict Malaria":
             with col3a:
                 diarrhea = st.checkbox("Diarrhea", value=False)
             with col3b:
-                # You can add more symptoms here if your model supports them
+              
                 pass
 
         # Create symptoms dictionary to take user input
@@ -853,7 +854,7 @@ elif choice == "🛠️ Data Preprocessing":
             # Use inspect.cleandoc to remove leading whitespace automatically
         st.write("### 1 Import all required libraries")
         st.code(""" 
-# Import all required libraries
+ 
 import numpy as np
 import pandas as pd
 mport matplotlib.pyplot as plt
@@ -875,7 +876,7 @@ print("Libraries imported successfully!")
 
 
     def library():
-        # Import all required libraries
+       
         import numpy as np
         import pandas as pd
         import matplotlib.pyplot as plt
@@ -2069,7 +2070,7 @@ if 'best_model' in locals():
     else:
         print(f"{best_model_name} does not provide feature importance or coefficients.")
         
-    # Correlation with target (alternative feature importance)
+    # Correlation with target 
     print("\nFeature Correlation with Target (Alternative View):")
     if 'X' in locals() and 'y' in locals():
         # Calculate correlation for all features
@@ -2182,7 +2183,7 @@ if 'best_model' in locals():
             else:
                 st.code(f"{best_model_name} does not provide feature importance or coefficients.")
 
-            # Correlation with target (alternative feature importance)
+            # Correlation with target 
             st.code("\nFeature Correlation with Target (Alternative View):")
             y = st.session_state.y
             if 'X' in locals() and 'y' in locals():
@@ -2433,7 +2434,7 @@ else:
 
                 return result
 
-            # Test with a complete example
+            
             print("\\nTest 1: Complete example with all features")
             complete_example = {
                 'Age': 30,
