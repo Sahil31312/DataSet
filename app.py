@@ -322,7 +322,7 @@ if choice == "🏠 Home":
     # GRADIENT STAT CARDS
     # =========================
     st.markdown("---")
-    st.markdown('<h3 class="stats-header">📈 Global Malaria Statistics (2023)</h3>', unsafe_allow_html=True)
+    st.markdown('<h3 class="stats-header">📈 Global Malaria Statistics</h3>', unsafe_allow_html=True)
     stat_cols = st.columns(4)
     with stat_cols[0]:
         st.markdown('<div class="stat-card cases"><span class="stat-icon">🌍</span><br>249M<br>Cases</div>', unsafe_allow_html=True)
